@@ -11,6 +11,8 @@
 		ED339E7A2A017CFF0080D3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E792A017CFF0080D3E6 /* ContentView.swift */; };
 		ED339E7C2A017D010080D3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E7B2A017D010080D3E6 /* Assets.xcassets */; };
 		ED339E7F2A017D010080D3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E7E2A017D010080D3E6 /* Preview Assets.xcassets */; };
+		ED339E882A0181C50080D3E6 /* ClassifierViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E872A0181C50080D3E6 /* ClassifierViewModel.swift */; };
+		ED339E8A2A0185D80080D3E6 /* CarLicensePlatesExperiment 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ED339E892A0185D80080D3E6 /* CarLicensePlatesExperiment 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ED339E792A017CFF0080D3E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED339E7B2A017D010080D3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED339E7E2A017D010080D3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED339E872A0181C50080D3E6 /* ClassifierViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassifierViewModel.swift; sourceTree = "<group>"; };
+		ED339E892A0185D80080D3E6 /* CarLicensePlatesExperiment 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "CarLicensePlatesExperiment 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		ED339E762A017CFF0080D3E6 /* CarLicensePlateApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED339E892A0185D80080D3E6 /* CarLicensePlatesExperiment 1.mlmodel */,
 				ED339E772A017CFF0080D3E6 /* CarLicensePlateAppApp.swift */,
 				ED339E792A017CFF0080D3E6 /* ContentView.swift */,
 				ED339E7B2A017D010080D3E6 /* Assets.xcassets */,
 				ED339E7D2A017D010080D3E6 /* Preview Content */,
+				ED339E872A0181C50080D3E6 /* ClassifierViewModel.swift */,
 			);
 			path = CarLicensePlateApp;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED339E8A2A0185D80080D3E6 /* CarLicensePlatesExperiment 1.mlmodel in Sources */,
 				ED339E7A2A017CFF0080D3E6 /* ContentView.swift in Sources */,
+				ED339E882A0181C50080D3E6 /* ClassifierViewModel.swift in Sources */,
 				ED339E782A017CFF0080D3E6 /* CarLicensePlateAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
